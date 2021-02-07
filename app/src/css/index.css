@@ -1,0 +1,84 @@
+a{
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+  }
+  #stats{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+  #main{
+    display: none;
+  }
+  #newGame, #creditBtn, #backBtn, #statistiqueBtn, #optionBtn, #quitBtn, #musicBtn{
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid goldenrod;
+    border-radius: 7px;
+    background-color: gold;
+    color: orangeRed;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Courier New";
+    height: 1.2em;
+    width: 12em;
+    margin: 40px auto;
+   }
+
+   #optionBtn{
+    width: 100px;
+    height: 100px;
+     position: relative;
+     left: 40%;
+     text-align: center;
+     font-size: 1em;
+     font-family: "Courier New";
+     color: orangeRed;
+     border-radius: 50%;
+   }
+   
+
+  .circle-text {
+    font-family: "Courier New";   
+    width: 50px;
+    height: 50px;
+    line-height: 90px;
+    padding-left: 3px;
+    text-align: center;
+    font-size: 23px;
+    font-weight:bold;
+    }
+
+
+  #theHead{
+    margin: auto;
+    color: #FF8A2F;
+    font-size: 1em;
+    font-family: "Courier New";
+    
+  }
+  #credits{
+    margin: auto;
+    color: #FF8A2F;
+    font-size: 1.1em;
+    font-family: "Courier New";
+    font-weight: bold;
+    display: none;
+    background-color: inherit;
+  }
+
+  #backBtn, #musicBtn, #restartBtn{
+    display: none;
+  }
+
+  #ref{
+    font-size: 20px;
+    line-height: 1em;
+    text-align: left;
+    margin: 1%;
+  }
+
+  #musicBtn{
+    margin-top: 10%;
+  }
+
+  
